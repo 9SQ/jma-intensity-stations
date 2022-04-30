@@ -4,9 +4,11 @@
 
 ## How to use
 
-1. [気象庁防災情報XMLフォーマット 技術資料](http://xml.kishou.go.jp/tec_material.html)から個別コード表のzipをダウンロード、解凍
-2. 地震火山関連コード表.xlsを同じ入れる
-3. 実行
+1. `git clone https://github.com/9SQ/jma-intensity-stations.git`
+2. `cd jma-intensity-stations`
+3. [気象庁防災情報XMLフォーマット 技術資料](http://xml.kishou.go.jp/tec_material.html)から個別コード表のzipをダウンロード、解凍
+4. `地震火山関連コード表.xls`を同階層に置く
+5. 実行
 
 ```
 npm install
